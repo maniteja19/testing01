@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import React, { useState } from 'react';
 import axios from 'axios';
 const Flatlist = async () => {
@@ -14,4 +14,3 @@ const Flatlist = async () => {
 };
 
 export default Flatlist;
-const styles = StyleSheet.create({})

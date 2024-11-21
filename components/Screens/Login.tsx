@@ -90,7 +90,7 @@ const Login = () => {
             </View>
           </View>
         </ScrollView>
-      </SafeAreaView>
+      </SafeAreaView> 
     </SafeAreaProvider>
   );
 };

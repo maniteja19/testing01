@@ -16,7 +16,7 @@ const LoginScreen = () => {
     const [password, setPassword] = useState('');
     const [errorMessage,setErrorMessage] = useState('');
     const handleLogin = ()=>{
-        setErrorMessage('');
+        setErrorMessage(''); 
         if (!email || !password ) {
           return setErrorMessage('Please enter email and password.');
         }

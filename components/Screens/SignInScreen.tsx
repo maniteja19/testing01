@@ -19,7 +19,7 @@ export default function SignInScreen() {
             <TextInput placeholder="Email" style={styles.input} />
           </View>
           <View style={styles.inputContainer}>
-            <TextInput placeholder="Phone Number" style={styles.input} />
+            <TextInput placeholder="Phone Number" style={styles.input} /> 
           </View>
           <View style={styles.inputContainer}>
             <TextInput placeholder="Password" style={styles.input} />
